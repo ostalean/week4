@@ -30,3 +30,18 @@ puts die2
 # 3. create a variable for the total and write it to the screen
 total = die1 + die2
 puts "The total is: #{total}"
+
+    # sudo-coding: start by writing what you want and then code. half code half language
+    # if total == 7 or 11
+  if total == 7 || total == 11
+    # YOU WIN!
+    puts "YOU WIN!"
+    #else if total == 2, 3 or 12
+  elsif total == 2 || total == 3 || total == 12
+    #YOU LOSE!
+    puts "YOU LOSE!"
+    #else
+  else 
+    puts puts "the toal is #{total}"
+    #The point is total
+  end
